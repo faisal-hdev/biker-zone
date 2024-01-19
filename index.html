@@ -31,7 +31,6 @@
               clifford: "#da373d",
               "bike-primary": "#E76F51",
               "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
-              "title-color": "#000",
             },
           },
         },
@@ -82,7 +81,7 @@
           </div>
           <div class="">
             <a
-              class="btn bg-bike-primary font-semibold lg:text-lg text-white px-8"
+              class="btn bg-bike-primary font-normal lg:text-lg text-white px-8"
               >Login</a
             >
           </div>
@@ -104,7 +103,9 @@
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-              <a class="btn bg-bike-primary text-lg text-white">Purchase</a>
+              <a class="btn font-normal bg-bike-primary text-lg text-white"
+                >Purchase</a
+              >
             </div>
             <div class="flex-1">
               <img
@@ -213,7 +214,88 @@
         </div>
       </div>
     </header>
-    <main class="md:container md:mx-auto"></main>
+    <main class="md:container md:mx-auto">
+      <!-- Featured Bikes section -->
+      <!-- <section>
+        <h2>Fetured Bikes In This Year</h2>
+        <p>Best bike collection</p>
+        <div class="gird grid-cols-3">
+          <div><img src="./images/others/feature-bike.png" alt="" /></div>
+          <div><img src="./images/others/feature-bike.png" alt="" /></div>
+          <div><img src="./images/others/feature-bike.png" alt="" /></div>
+        </div>
+      </section> -->
+      <!-- Latest bike section -->
+      <section class="lg:my-24 my-10">
+        <h3 class="text-5xl font-semibold text-center lg:mb-20 mb-10">
+          Latest Bikes
+        </h3>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 m-4 lg:m-0"
+        >
+          <!-- first-card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img class="mt-8" src="./images/others/latest1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body lg:space-y-4 space-y-2">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-bike-primary font-normal text-lg text-white"
+                >
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- second-card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img class="mt-8" src="./images/others/latest2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body lg:space-y-4 space-y-2">
+              <h2 class="card-title">Motorcycles & Scooters</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-bike-primary font-normal text-lg text-white"
+                >
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- third-card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img class="mt-8" src="./images/others/latest1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body lg:space-y-4 space-y-2">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-bike-primary font-normal text-lg text-white"
+                >
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
